@@ -43,5 +43,5 @@ int main()
         }
 
 
-    } while (true);
+    } while (chs!=5);
 }
