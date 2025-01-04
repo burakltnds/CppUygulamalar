@@ -38,10 +38,9 @@ int main()
         case 3:
             cout << "Bakiye:" << money << endl;
             break;
-        case 4:
-            break;
-        }
+        default:
+        if(chs!=4) cout<<"Yanlis Bir Secim Yaptiniz Tekrar Deneyin"<<endl;    
 
 
-    } while (chs!=5);
+    } while (chs!=4);
 }
