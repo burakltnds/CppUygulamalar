@@ -26,7 +26,7 @@ void swap3(int* x, int* y) {
 	cout << "Pointer Icinde Degerler:" << "a=" << *x << " b=" << *y << endl;
 }
 
-//Referans + Const = Değeri Sadece fonksiyonun içinde değiştirecekseniz fakat daha hızlı erişim istiyorsanız kullanabilirsiniz
+//Referans + Const = Değeri Değiştirmeyecek fakat daha hızlı erişim istiyorsanız kullanabilirsiniz
 //x ve y ye atama yapamazsınız bu yüzded swap işlemi yapılamaz
 void max(const int& x, const int& y) {
 	if (x > y) { cout << x << " buyuktur " << y << endl; }
